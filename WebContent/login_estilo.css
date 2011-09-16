@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+#container{
+	width: 100%;
+	background-color:;
+}
+
+#cabecario{
+	margin: auto;
+	width: 70%;
+	height: 160px;
+	background-image: url(imagens/layouttop.jpg);
+}
+
+#menu{
+	margin: auto;
+	width: 70%;
+	height: 35px;
+	border-top: 3px solid #001f3c;
+	position: relative;
+	background-image: url(imagens/layoutbarrah.jpg);
+	border-bottom: 3px solid #001f3c;
+}
+
+#corpo{
+	margin: auto;
+	width: 70%;
+	height: 530px;
+	background-color: #FFFFFF;
+	/*background-image: url(imagens/corredor.jpg); 680*/
+}
+
+#corpo_image{
+	margin: auto;
+	width: 680px;
+	height: 530px;
+	background-image: url(imagens/layoutcorpo.jpg);
+	/*background-image: url(imagens/corredor.jpg); 680*/
+}
+
+#rodape{
+	margin: auto;
+	width: 70%;
+	clear: both;
+	border-top: 1px solid #001f3c;
+	background-image: url(imagens/layoutbarrah.jpg);
+	border-bottom: 3px solid #001f3c;
+}
+
+.class_menu{
+	position: absolute;
+	top: 14px;
+	left: 32%;
+}
+
+//-------------------------------------------------------------------------------------------------------------------
+
+#class_menu messages{
+	margin: left;
+	text-decoration: none;
+	text-align: center;
+	font-family: verdana;
+	color: red;
+}
+
+
+
